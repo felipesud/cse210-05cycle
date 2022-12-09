@@ -4,6 +4,36 @@
 
 Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
 
+## Project Structure
+
+cycle/
+├── constants.py
+├── game/
+│   ├── casting/
+│   │   ├── actor.py
+│   │   ├── cast.py
+│   │   ├── cycle.py
+        ├── food.py
+│   │   └── score.py
+│   ├── directing/
+│   │   └── director.py
+│   ├── scripting/
+│   │   ├── action.py
+│   │   ├── control_actors_action.py
+│   │   ├── draw_actors_action.py
+│   │   ├── handle_collisions_action.py
+│   │   ├── move_actors_action.py
+│   │   └── script.py
+│   ├── services/
+│   │   ├── keyboard_service.py
+        ├── stopwatch_services.py
+│   │   └── video_service.py
+│   └── shared/
+│       ├── color.py
+│       └── point.py
+├── __main__.py
+└── README.md
+
 ## Rules
 Cycle is played according to the following rules.
 
