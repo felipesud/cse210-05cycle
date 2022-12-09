@@ -5,7 +5,7 @@
 Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
 
 ## Project Structure
-
+```
 cycle/
 ├── constants.py
 ├── game/
@@ -33,6 +33,7 @@ cycle/
 │       └── point.py
 ├── __main__.py
 └── README.md
+```
 
 ## Rules
 Cycle is played according to the following rules.
